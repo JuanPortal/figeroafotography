@@ -3,11 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Winky Sans", sans-serif;
-  color: #000;
-}
-
-body {
-  /* background-color: antiquewhite; */
 }
 
 /* HEADER */
@@ -19,7 +14,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background: rgb(255,255,255);
-  background: linear-gradient(90deg, rgba(255,255,255,1) 13%, rgba(0,0,0,1) 84%);
+  background: linear-gradient(90deg, #fff 13%, #000 84%);
 
   & .title {
     width: 30%;
@@ -95,4 +90,28 @@ section {
   background: url('./assets/contact.jpg');
   background-position: center;
   background-size: cover;
+
+  & .wrap {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 50px;
+    padding-right: 20%;
+
+    & a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      text-decoration: none;
+      color: #fff;
+
+      & .icon {
+        font-size: 6rem;
+      }
+
+      & p {
+        font-size: 3rem;
+      }
+    }
+  }
 }
