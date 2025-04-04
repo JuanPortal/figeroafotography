@@ -2,6 +2,10 @@ import React from 'react'
 
 export const About = () => {
   return (
-    <div>embrace the ish</div>
+    <section className='about'>
+        <div className="wrap">
+            <p>embrace the ish</p>
+        </div>
+    </section>
   )
 }
