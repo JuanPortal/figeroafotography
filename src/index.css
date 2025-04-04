@@ -2,31 +2,56 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: antiquewhite;
   font-family: "Winky Sans", sans-serif;
+  color: #000;
+}
+
+body {
+  background-color: antiquewhite;
 }
 
 /* HEADER */
 
 header {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   width: 100%;
   height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: rgb(206, 87, 87);
 
-  & a {
-    height: 60%;
-    background-color: transparent;
+  & .title {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
 
-    & img {
-      height: 100%;
-      background-color: transparent;
+    & a {
+      height: 60%;
+
+      & img {
+        height: 100%;
+      }
+    }
+
+    & h1 {
+      /* background-color: transparent; */
     }
   }
 
-  & h1 {
-    background-color: transparent;
+  & ul {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(37, 158, 195);
+    font-size: 2rem;
+
+    & a {
+      text-decoration: none;
+    }
   }
 }
