@@ -5,12 +5,13 @@ import { About } from './About'
 import { Gallery } from './Gallery'
 import { Contact } from './Contact'
 
-function FigeroaFotography() {
+function FigueroaFotography() {
 
   return (
     <>
       <Header />
       <Routes>
+        <Route path='/' element={<About />} />
         <Route path='/about' element={<About />} />
         <Route path='/gallery' element={<Gallery />} />
         <Route path='/contact' element={<Contact />} />
@@ -19,4 +20,4 @@ function FigeroaFotography() {
   )
 }
 
-export default FigeroaFotography
+export default FigueroaFotography

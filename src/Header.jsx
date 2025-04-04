@@ -8,7 +8,7 @@ export const Header = () => {
     <header>
         <div className='title'>
             <Link to="/about"><img src="src/assets/favicon.png" alt="logo" title='logo'/></Link>
-            <h1>Figeroa Fotography</h1>
+            <h1>Figueroa Fotography</h1>
         </div>
         <Navbar />
     </header>
